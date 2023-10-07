@@ -1,0 +1,87 @@
+body {
+  font-family: "arial", sans-serif;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h3 {
+  font-size: 1.17em;
+  color: #333333;
+  font-weight: 700;
+  color: #aaaaaa;
+}
+.row{
+  background-image: linear-gradient(#EEE, #FFF);
+  margin: 0px .8px;
+}
+.bookMark{
+  background-color: rgb(238, 238, 238);
+}
+
+h2{
+  color: #333333;
+  font-size: 24px;
+  margin: 19.92px 0px;
+  font-weight: 700;
+}
+header .container {
+  color: #aaa;
+  padding: 20px;
+  border-bottom: 1px solid #999;
+  font-size: 25px;
+}
+.bookMark p,
+.bookMark h2 {
+  text-align: center;
+}
+input {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 50%;
+  font-size: 15px;
+}
+footer .container {
+  padding: 20px;
+  border-top: 1px solid #999;
+  font-size: 14px;
+}
+.content h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+.content p {
+  font-size: 16px;
+  color: #333333;
+  font-weight: 700;
+}
+footer p {
+  font-size: 14px;
+  color: #aaaaaa;
+  font-weight: 700;
+}
+.btn {
+  padding: 10px 15px;
+  font-size: 15px;
+  margin: 15px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.1s;
+}
+.btn:hover {
+  box-shadow: 2px 5px 3px 0px #888;
+}
+.btn-primary {
+  background-color: #1167c4;
+  color: white;
+  border: 1px solid #1167c4;
+}
+.btn-primary:hover {
+  background-color: #0a3f77;
+  border: 1px solid #0a3f77;
+}
